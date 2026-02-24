@@ -82,6 +82,10 @@ The server will start at `http://localhost:3000`. Your API and Email Worker will
 *   **Inbound Scores**: Use the WordPress plugin to send a test score.
 *   **Email Queue**: Hit the admin trigger endpoint to watch the BullMQ worker process jobs.
 
----
-**Author**: Antigravity
-**Project Type**: Headless LMS Infrastructure Demo
+### Tested So Far
+✔ Backend ingestion
+✔ Prisma migrations + Postgres
+✔ Redis + Bull queue jobs
+✔ Secure webhook verification
+
+**Note**: WordPress plugin integration pending full test; webhook logic has been validated in backend.
